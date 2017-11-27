@@ -16,6 +16,10 @@
         </div>
       </div>
 
+      <div id="app">
+        {{ message }}
+      </div>
+
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
           <div class="callout">
@@ -163,6 +167,8 @@
       </div>
     </div>
 
+    <script src="https://unpkg.com/vue"></script>
+    <script src="js/scripts.vue.js"></script>   
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
